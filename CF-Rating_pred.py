@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[7]:
-
-
 from tkinter import *
 from tkinter.ttk import *
 import matplotlib.pyplot as plt
@@ -12,12 +6,10 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 import urllib, ast
 import math
-import validators, requests
+import requests
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg,NavigationToolbar2Tk)
 
-
-# In[8]:
 
 
 def cal():
@@ -77,8 +69,6 @@ def cal():
         myText.set(x)
 
 
-# In[9]:
-
 
 window = Tk()
 myText=StringVar()
@@ -97,22 +87,6 @@ n2.grid(row=1, column=1, pady = 5)
 b = Button(master=window, text="Ready", command = cal,style = 'W.TButton')
 b.grid(row=3, column=2,columnspan=2, rowspan=2,sticky=W+E+N+S, padx=1, pady=1)
 mainloop()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
