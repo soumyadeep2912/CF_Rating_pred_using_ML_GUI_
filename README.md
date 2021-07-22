@@ -21,5 +21,5 @@ for Windows and:
 
 followed by the same command above for Linux.
 
-<h1>Screenshots of the Interface</h1>
+<h1>Screenshot of the Interface</h1>
 <img src='int.jpeg'>
